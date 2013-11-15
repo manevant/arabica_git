@@ -1,0 +1,145 @@
+body {margin: 0px;padding: 0px;background-color: gray;background: url('img/bgtt.jpg') no-repeat center;}
+
+.andika {font-family: 'Andika', sans-serif;font-weight: normal;}
+.marck {font-family: 'Marck Script', cursive;font-weight: lighter;}
+.hrsmall {width: 150px;height: 1px;border-top: 1px solid #38140F;position: relative; margin: 1px auto;}
+.clear {clear: both;display: block;}
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 950px;
+  padding: 0;
+  margin: 0px auto;
+  }
+
+	.rslides li {
+	  -webkit-backface-visibility: hidden;
+	  position: absolute;
+	  display: none;
+	  width: 100%;
+	  left: 0;
+	  top: 0;
+	  }
+
+	.rslides li:first-child {
+	  position: relative;
+	  display: block;
+	  float: left;
+	  }
+
+	.rslides img {
+	  display: block;
+	  height: auto;
+	  float: left;
+	  width: 100%;
+	  border: 0;
+	  border-radius: 8px;
+	  }
+
+/* MENU SLIDER CONFIG*/
+ #rslides_menu {
+  width: 550px;}
+  #rslides_menu li {padding-top: 25px;}
+
+	#rslides_img img {width: 550px;margin-top: 25px;}
+
+	.next {margin-left: 604px; margin-top: -400px;position: absolute;text-decoration: none;font-size: 5px;color: black;text-shadow: 0px 1px 5px rgba(150, 150, 150, 1);background: url("img/btnnn.png") center no-repeat;overflow: visible;
+			width: 40px;height: 40px;}
+	.prev {margin-left: 4px; margin-top: -400px;position: absolute;text-decoration: none;font-size: 5px;color: black;text-shadow: 0px 1px 5px rgba(150, 150, 150, 1);background: url("img/btnp.png") center no-repeat;overflow: visible;
+			width: 40px;height: 40px;}
+		.prev:hover , .next:hover {opacity: 0.8;}
+
+	.rslides_tabs {list-style: none;}
+	.rslides_tabs li {display: inline;margin-right: 5px;}
+	.rslides_tabs li a {text-decoration: none;color: black;font-size: 20px;}
+
+/* end */
+
+.wrapper {width: 1000px;height: 1550px;background-color: white; margin-left: auto; margin-right: auto;background: url("img/bg2.png") repeat;
+			-webkit-box-shadow: 0px 0px 30px rgba(50, 50, 50, 0.5);
+			-moz-box-shadow:    0px 0px 30px rgba(50, 50, 50, 0.5);
+			box-shadow:         0px 0px 30px rgba(50, 50, 50, 0.5); }
+	#wrapper_menu {height: 1650px;}
+
+
+
+/*HEAD & LOGO STYLE*/
+.header {width: inherit;height: 150px;background: url("img/bg2.png") repeat;}
+	.header_container {display: block;margin-left: auto;margin-right: auto;width: 710px;}
+ 	.header img {display: inline-block;width: 300px;padding-top: 30px;}
+ 	.header .hr {width: 200px;height: 2px;background-color: #38140F; display: inline-block;margin-bottom: 25px;opacity: 0.5;}
+
+		.hr p {margin-top: 5px;text-align: center;font-size: 15px;}
+
+
+/*NAVIGATION BAR STYLE*/
+.navbar {width: 850px;height: 80px;margin: 10px auto; border-bottom: 2px solid #38140F;}
+	.navbar ul {list-style: none;text-align: center;font-size: 35px;margin: 5px;}
+	.navbar li {display: inline;margin-left: 20px;margin-top: 20px;font-family: 'Marck Script', cursive;color:  #38140F;}
+	.navbar li:hover {text-decoration: underline;}
+	.navbar a:link , a:visited , a:active {color: #38140F;text-decoration: none;}
+
+/*TOP SLYDER STYLE*/
+.slider {width: 950px;height: 250px; background-color: #F2E3C4;margin:25px auto;
+		-webkit-box-shadow: 0px 0px 30px rgba(50, 50, 50, 0.5);
+		-moz-box-shadow:    0px 0px 30px rgba(50, 50, 50, 0.5);
+		box-shadow:         0px 0px 30px rgba(50, 50, 50, 0.5);
+			border-radius: 8px;}
+
+/* MENU SLIDER */
+	#slider_menu {width: 650px;height: 890px;border-bottom-left-radius: 0px;border-bottom-right-radius: 0px;}
+
+
+/*MAIN ARTICLE STYLE*/
+.article {width: 750px;height: 700px; background-color: #F2E3C4;margin:25px; margin-top: 0px; display: inline-block;float: left;border-radius: 8px;
+	-webkit-box-shadow: 0px 0px 30px rgba(50, 50, 50, 0.5);
+	-moz-box-shadow:    0px 0px 30px rgba(50, 50, 50, 0.5);
+	box-shadow:         0px 0px 30px rgba(50, 50, 50, 0.5);}
+	.article h1, h2 {text-align: center;}
+		.article h1, h2, p {color: #38140F;text-shadow: -1px 1px 5px rgba(150, 130, 118, 0.5);}
+		.article p {margin: 15px;font-size: 19px;line-height: 1.4;}
+		.article h3 {color: #38140F;font-size: 23px;margin: 15px;font-family: 'Andika', sans-serif;font-weight: normal;}
+	#contactsp {width: 950px;height: 750px;}
+		#contactsp img {display: inline-block;float: left;margin: 10px 15px;border: 5px solid white;border-radius: 10px;}
+
+	#menu {width: 950px;height: 1250px;}
+	#banquet {width: 950px;height: 1250px;}
+		#banquet #tel {float: right;background-color: white;}
+	#banquet .gallery {display: block;}
+
+/*GALLERY STYLE*/
+#contactsp .gallery {width: 900px; height: 650px;margin: 10px auto;}
+#contactsp .gallery img {max-width: 150px; height: 150px; display: inline-block;float: left;margin-right: 0px;overflow: hidden;border-radius: 5px;border: 2px solid white;margin-left: 22px;}
+#contactsp .gallery img:hover {opacity: 0.4;}
+
+
+/*SIDEBAR STYLE*/
+.sidebar {width: 175px;height: 700px;background-color: #F2E3C4;display: inline-block;margin-right: 25px;float: left;border-radius: 8px;
+			-webkit-box-shadow: 0px 0px 30px rgba(50, 50, 50, 0.5);
+			-moz-box-shadow:    0px 0px 30px rgba(50, 50, 50, 0.5);
+			box-shadow:         0px 0px 30px rgba(50, 50, 50, 0.5); }
+	.sidebar h2,h3 {text-align: center;}
+	.sidebar h3,p {color: #38140F;text-shadow: -1px 1px 5px rgba(150, 130, 118, 0.5);}
+	.sidebar p {margin: 5px;font-size: 15px;line-height: 1.4;}
+
+
+
+/*FOOTER STYLE*/
+.footer {width: 950px; height: 100px; background-color: #CDB38D; margin-left: auto;margin-right: auto;clear: both;
+			border-radius: 8px;
+			-webkit-box-shadow: 0px 0px 30px rgba(50, 50, 50, 0.5);
+			-moz-box-shadow:    0px 0px 30px rgba(50, 50, 50, 0.5);
+			box-shadow:         0px 0px 30px rgba(50, 50, 50, 0.5);}
+
+	.footerl {width: 350px;height: inherit;position: relative;left: 0px;display: inline-block;}
+		.footerl img {margin: 0px auto;display: inline-block;opacity: 0.3;float: left;margin-top: 5px;margin-right: 20px;}
+		.footerl div {width: 200px;height: inherit; display: inline-block;float: left;opacity: 0.5;}
+		.footerl div p {margin: 5px auto;font-size: 16px;line-height: 1.4;}
+
+	.footerr {width: 550px; height: 99px;position: relative;display: inline-block;clear: left;}
+
+		.footerr div {position: relative;right: 0px;display: inline-block;}
+		.footerr img {opacity: 0.3;right: 0px;display: inline-block;}

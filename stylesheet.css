@@ -4,6 +4,7 @@ body {margin: 0px;padding: 0px;background-color: gray;background: url('img/bgtt.
 .marck {font-family: 'Marck Script', cursive;font-weight: lighter;}
 .hrsmall {width: 150px;height: 1px;border-top: 1px solid #38140F;position: relative; margin: 1px auto;}
 .clear {clear: both;display: block;}
+#bold {font-weight: bold; color: #2B100C;}
 
 
 .rslides {
@@ -105,6 +106,7 @@ body {margin: 0px;padding: 0px;background-color: gray;background: url('img/bgtt.
 	#contactsp {width: 950px;height: 750px;}
 		#contactsp img {display: inline-block;float: left;margin: 10px 15px;border: 5px solid white;border-radius: 10px;}
 
+	#index {height: 700px;}
 	#menu {width: 950px;height: 1250px;}
 	#banquet {width: 950px;height: 1250px;}
 		#banquet #tel {float: right;background-color: white;}
@@ -135,11 +137,11 @@ body {margin: 0px;padding: 0px;background-color: gray;background: url('img/bgtt.
 			box-shadow:         0px 0px 30px rgba(50, 50, 50, 0.5);}
 
 	.footerl {width: 350px;height: inherit;position: relative;left: 0px;display: inline-block;}
-		.footerl img {margin: 0px auto;display: inline-block;opacity: 0.3;float: left;margin-top: 5px;margin-right: 20px;}
-		.footerl div {width: 200px;height: inherit; display: inline-block;float: left;opacity: 0.5;}
-		.footerl div p {margin: 5px auto;font-size: 16px;line-height: 1.4;}
+		.footerl img {margin: 0px auto;display: inline-block;opacity: 0.3;margin-top: 5px;margin-right: 20px;}
+		.footerl div {width: 200px;display: inline-block;opacity: 0.5;}
+		.footerl div p {margin: 4px auto;font-size: 16px;line-height: 1.4;}
 
-	.footerr {width: 550px; height: 99px;position: relative;display: inline-block;clear: left;}
+	.footerr {position: relative;display: inline-block;left: 200px;}
 
-		.footerr div {position: relative;right: 0px;display: inline-block;}
-		.footerr img {opacity: 0.3;right: 0px;display: inline-block;}
+		.footerr div {}
+		.footerr img {opacity: 0.3;}

@@ -7,6 +7,7 @@
 		<script src="http://cdn.strategiqcommerce.com/ajax/libs/ResponsiveSlides.js/1.53/responsiveslides.min.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Marck+Script&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Andika&subset=cyrillic' rel='stylesheet' type='text/css'>
+        <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
         <link rel="SHORTCUT ICON" href="icon.ico">
 		<script type="text/javascript">
 		$(document).ready(function(){
@@ -16,6 +17,25 @@
 
 		});
 		</script>
+        <script type="text/javascript">
+            ymaps.ready(init);
+            var myMap;
+
+            function init(){     
+                myMap = new ymaps.Map ("contacts_map", {
+                    center: [44.59,33.50],
+                    zoom: 12
+                });
+
+                myPlacemark = new ymaps.Placemark([44.583329,33.455474], {
+                    hintContent: 'Кафе Арабика', 
+                    balloonContent: '<div style="text-align:center"><b>Кафе Арабика</b> <br> Столетовский проспект, д.18<br>тел. +380 662 009 876   <img src="img/ft2.png" style="opacity:0.7"</div>>'
+                });
+
+                myMap.geoObjects.add(myPlacemark);
+                myMap.controls.add(new ymaps.control.SmallZoomControl());
+            }
+</script>
 
 
 
@@ -58,14 +78,14 @@
 
     		<div class="article andika" id="contactsp">
     			<h1 class="marck">Контакты</h1>
-                <img src="img/location.png">
-                <p style="text-align:center">Наши контакты</p>
-    			<p>Адрес: Столетовский проспект, д.18, Севастополь, Украина.</p>
-                <br>
-                <p>Телефон для справок: +3 443 3344 333 33</p>
+                <div id="contacts_map">
 
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
-
+                </div>
+                <div id="contacts_text">
+                    <p>Адрес: Столетовский проспект, д.18, Севастополь, Украина. Телефон: +3 456 765 44 33</p>
+                    <p>Адрес: Столетовский проспект, д.18, Севастополь, Украина. Телефон: +3 456 765 44 33</p>
+                    <p>Адрес: Столетовский проспект, д.18, Севастополь, Украина. Телефон: +3 456 765 44 33</p>
+                </div>
 
     		</div>
 

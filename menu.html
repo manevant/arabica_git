@@ -11,12 +11,16 @@
 		<script type="text/javascript">
 		$(document).ready(function(){
   			$(function() {$(".rslides").responsiveSlides({auto:false,nav:true,prevText: " ", nextText: " "});});
+
             $(".lbox").css("visibility","visible");
+            
+            setTimeout(function(){ jQuery(".lbox, .closer, .lbox_article").fadeOut(); }, 5000);
+            
             $(".lbox, .closer, .lbox_article").click(function(){
                 $(".lbox").css("visibility","hidden");
                 $(".lbox_article").css("visibility","hidden");
-            });
-		});
+            }); 
+        });
 		</script>
 
 
@@ -32,10 +36,9 @@
         <div class="lbox_article">
             <p class="closer">x</p>
             
-            <h1 class="andika">Для навигации используйте <br>
+            <h1 class="andika">Для навигации используйте <br><br>
             <img src="img/btnp.png">
             <img src="img/btnnn.png"></h1>
-            <img class="arrow_helper" src="img/arrow.png">
         </div>
 
     	<div class="wrapper" id="wrapper_menu">
@@ -63,7 +66,7 @@
     		<div class="article andika" id="menu">
     			<h1 class="marck">Меню</h1>
                 <div class="hr_img"></div>
-    			 <p><span id="bold">Меню</span> сопровождается обширной картой вин, крепких напитков, коктейлей. Никого не оставят равнодушным великолепные блюда, их оформление, подача, а также уникальный дизайн кафе, приветливость персонала и демократичные цены.<br>
+    			 <p><span id="bold">Меню</span> сопровождается обширной картой вин, крепких напитков, коктейлей. Никого не оставят равнодушным великолепные блюда, их оформление, подача, а также уникальный дизайн кафе, приветливость персонала и демократичные цены.<br><br>
                  Постоянные клиенты давно оценили фирменные блюда заведения из-под ножа шеф-повара, а так же неизменное качество их приготовления.</p>
                 <div class="slider" id="slider_menu">
                     <ul class="rslides" id="rslides_menu">
@@ -78,6 +81,8 @@
                         <li><img src="img/menu/price/09.jpg"></li>
                         <li><img src="img/menu/price/10.jpg"></li>
                         <li><img src="img/menu/price/11.jpg"></li>
+                        <li><img src="img/menu/price/12.jpg"></li>
+                        <li><img src="img/menu/price/13.jpg"></li>
                     </ul>
                 </div>
     		</div>

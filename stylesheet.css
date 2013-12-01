@@ -11,8 +11,8 @@ body {margin: 0px;padding: 0px;background-color: gray;background: url('img/bgtt.
 /*lbox for menu.html*/
 .lbox {height: 1650px;width: 100%;position: absolute;left: 0px;top: 0px;background: black; opacity: 0.8;z-index: 3;visibility: hidden;}
 	.lbox_article {
-		height: 250px;
-		width: 20%;
+		height: 200px;
+		width: 15%;
 		position: absolute;
 		top: 150px;
 		border: 5px solid #F0ECDB;
@@ -20,10 +20,10 @@ body {margin: 0px;padding: 0px;background-color: gray;background: url('img/bgtt.
 		background: #F2E3C4;
 		opacity: 1;
 		z-index: 4;
-		left: 40%;}
-		.lbox_article p {margin: 0px;font-size: 30px;font-family: monospace;float: right;position: relative;top: -7px;}
+		left: 42.5%;}
+		.lbox_article p {margin: 0px;font-size: 25px;font-family: monospace;float: right;position: relative;top: -7px;}
 		.lbox_article p:hover {color: white;cursor: pointer;}
-		.lbox_article h1 {margin: 10px;text-align: center;color: #2B100C;font-size: 26px;}
+		.lbox_article h1 {margin: 10px;text-align: center;color: #2B100C;font-size: 22px;}
 		.arrow_helper {position: relative;left: 520px;max-width: 300px;}
 
 .rslides {
@@ -83,16 +83,21 @@ body {margin: 0px;padding: 0px;background-color: gray;background: url('img/bgtt.
 			-moz-box-shadow:    0px 0px 30px rgba(50, 50, 50, 0.5);
 			box-shadow:         0px 0px 30px rgba(50, 50, 50, 0.5); }
 	#wrapper_menu {height: 1650px;}
+	#wrapper_banquet {height: 1650px;}
+	#wrapper_index {height: 1440px;}
+	#wrapper_gallery {height: 1150px;}
+	#wrapper_contacts {height: 1440px;}
 
 
 
 /*HEAD & LOGO STYLE*/
 .header {width: inherit;height: 150px;background: url("img/bg2.png") repeat;}
-	.header_container {display: block;margin-left: auto;margin-right: auto;width: 710px;}
- 	.header img {display: inline-block;width: 300px;padding-top: 30px;}
- 	.header .hr {width: 200px;height: 2px;background-color: #38140F; display: inline-block;margin-bottom: 25px;opacity: 0.5;}
+	.header_container {display: block;margin-left: auto;margin-right: auto;width: 700px;}
+ 	.header img {display: inline-block;width: 300px;padding-top: 30px;margin-left: auto;margin-right: auto;border: none;outline: none;}
+ 	.hr {width: 194px;height: 5px;border-bottom: 2px solid black;display: inline-block;position: relative;bottom: 20px;}
+ 	/*#38140*/
 
-		.hr p {margin-top: 5px;text-align: center;font-size: 15px;}
+
 
 
 /*NAVIGATION BAR STYLE*/
@@ -131,6 +136,8 @@ body {margin: 0px;padding: 0px;background-color: gray;background: url('img/bgtt.
 /* CONTACTS PAGE STYLE */
 	#contacts_map {width: 600px;height: 450px;display: inline-block;margin-left: 25px;border-radius: 10px;border: 2px solid white;}
 	#contacts_text {width: 300px;height: 450px; display: inline-block;float: right;}
+		#contacts_text #vkbtn {margin: 5px 30%;border: 0px;}
+		#contacts_text #vkbtn:hover {opacity: 0.8;}
 
 
 /*BANQUET PAGE STYLE*/
@@ -148,13 +155,13 @@ body {margin: 0px;padding: 0px;background-color: gray;background: url('img/bgtt.
 
 
 /*SIDEBAR STYLE*/
-.sidebar {width: 175px;height: 425px;background-color: #CDB38D;display: inline-block;margin-right: 25px;float: left;border-radius: 8px;
+.sidebar {width: 175px;height: 425px;background-color: #F2E3C4;display: inline-block;margin-right: 25px;float: left;border-radius: 8px;
 			-webkit-box-shadow: 0px 0px 30px rgba(50, 50, 50, 0.5);
 			-moz-box-shadow:    0px 0px 30px rgba(50, 50, 50, 0.5);
 			box-shadow:         0px 0px 30px rgba(50, 50, 50, 0.5); }
 	.sidebar h2,h3 {text-align: center;}
 	.sidebar h3,p {color: #38140F;text-shadow: -1px 1px 5px rgba(150, 130, 118, 0.5);}
-	.sidebar p {margin: 5px;font-size: 15px;line-height: 1.4;}
+	.sidebar p {margin: 5px;font-size: 15px;line-height: 1.4;margin-left: 10px;}
 
 
 
